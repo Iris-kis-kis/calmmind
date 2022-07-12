@@ -3,6 +3,13 @@
 }
 
 @media screen and (max-width:1200px) {
+    .hero_image {
+        width: 450px;
+
+    }
+    .header {
+        margin-bottom: 50px;
+    }
     
 }
 
@@ -22,7 +29,22 @@
     .nav-wrapper-mobile {
         display:block;
     }
-    
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero_title {
+        text-align: center;
+    }
+    .mobile_stores {
+        justify-content: center;
+
+    }
+    .header {
+        margin-bottom: 0px;
+    }
+
 }
 
 @media screen and (max-width:576px) {

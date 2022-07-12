@@ -29,11 +29,15 @@ html, body {
     width: 100%;
 
     position: relative;
-    overflow: hidden;
+    overflow-x: hidden;
+
+    background-color: #FFBAA1;
+
 }
 
 .img {
     display: block;
+    max-width: 100%;
 }
 .logo_image {
     width: 36.11px;
@@ -113,4 +117,36 @@ html, body {
 
 .nav-wrapper-mobile {
     display: none;
+}
+
+p {
+    margin: 0;
+}
+
+.hero_store {
+    flex-basis: 400px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.hero_title {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 57px;
+    text-align: right; 
+
+    margin-bottom: 30px;
+}
+
+.mobile_stores {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
 }
