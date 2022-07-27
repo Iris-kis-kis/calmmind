@@ -32,6 +32,7 @@ html, body {
     overflow-x: hidden;
 
     background-color: #FFBAA1;
+    padding-bottom: 350px;
 
 }
 
@@ -131,6 +132,7 @@ p,h1,h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 80px;
     
 }
 
@@ -151,6 +153,32 @@ p,h1,h2 {
 
 }
 
+
+.guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+
+    background-color: white;
+    
+}
+
+
+.guide-info {
+    max-width: 440px;
+    margin-left: 150px;
+    
+}
+
+.guide-info__title {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 42px;
+    line-height: 57px;
+}
+
 .feedbacks__title {
     max-width: 433px;
     margin: 0 auto;
@@ -161,6 +189,48 @@ p,h1,h2 {
     font-size: 42px;
     line-height: 57px;
     text-align: center;
+}
+
+.guide-info__text {
+  font-family: 'Roboto';
+   font-weight: 300;
+  font-size: 22px;
+  line-height: 39px;
+
+  margin-bottom: 35px;
+}
+
+
+.guide-info__link {
+
+    display: block;
+    text-align: center;
+    padding: 17px 0;
+    border-radius: 4px;
+    color:white ;
+
+    background-color:  #110ACD;
+
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    position: relative;
+}
+
+.guide-info__link::before {
+    content: '\25B2';
+    display: block;
+
+    position: absolute;
+    left: 30px;
+    top:50%;
+
+
+    transform:translateY(-50%) rotate(90deg);
+    font-size: 50px;
 }
 
 .feedbacks {
@@ -193,4 +263,13 @@ height: 24px;
 content: '';
 background-image: url('../Images/arrow1.svg');
 
+}
+
+.people {
+    background-color: white;
+    background-image: url('../Images/Peeps-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-height: 325px;
 }
